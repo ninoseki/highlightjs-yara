@@ -9,7 +9,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "buefy": "0.8.15",
+    "buefy": "0.8.20",
     "core-js": "3.6.5",
     "highlight.js": "10.1.2",
     "vue": "2.6.11",
