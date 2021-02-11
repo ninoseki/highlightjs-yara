@@ -27,7 +27,7 @@
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 
-import hljs from "highlight.js/lib/highlight.js";
+import hljs from "highlight.js/lib/core";
 import yara from "@/hljs/yara";
 hljs.registerLanguage("yara", yara);
 
