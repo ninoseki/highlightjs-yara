@@ -10,7 +10,7 @@
 import { Component, Vue } from "vue-property-decorator";
 import Yara from "./components/Yara.vue";
 
-import "highlight.js/styles/github.css";
+import "highlight.js/styles/androidstudio.css";
 
 @Component({
   components: {
@@ -21,12 +21,14 @@ export default class App extends Vue {}
 </script>
 
 <style>
-pre {
-  word-break: normal;
+html {
+  background-color: #f2f9ff !important;
 }
 
-pre code.hljs {
-  background-color: whitesmoke;
-  color: #4a4a4a;
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
 }
 </style>

@@ -1,6 +1,12 @@
 <template>
   <div>
     <div class="columns">
+      <div class="column">
+        <h1 class="is-size-2"> Highlight.js YARA demo </h1>
+      </div>
+    </div>
+
+    <div class="columns">
       <div class="column source">
         <b-field>
           <b-input
@@ -13,9 +19,9 @@
         </b-field>
       </div>
     </div>
-    <hr />
+
     <div class="columns">
-      <div class="column">
+      <div class="column code">
         <pre>
           <code class="yara">{{ source }}</code>
         </pre>
@@ -55,3 +61,9 @@ export default class Yara extends Vue {
   }
 }
 </script>
+
+<style scopded>
+.code, .code > pre {
+  background-color: #282b2e;
+}
+</style>
