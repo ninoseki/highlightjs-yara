@@ -12,7 +12,7 @@
     "buefy": "0.9.7",
     "core-js": "3.11.0",
     "highlight.js": "10.7.2",
-    "vue": "2.6.12",
+    "vue": "2.6.14",
     "vue-class-component": "7.2.6",
     "vue-property-decorator": "9.1.2"
   },
@@ -23,20 +23,20 @@
     "@types/mocha": "8.2.2",
     "@typescript-eslint/eslint-plugin": "4.22.0",
     "@typescript-eslint/parser": "4.22.0",
-    "@vue/cli-plugin-babel": "4.5.12",
-    "@vue/cli-plugin-eslint": "4.5.12",
-    "@vue/cli-plugin-typescript": "4.5.12",
-    "@vue/cli-plugin-unit-jest": "4.5.12",
-    "@vue/cli-service": "4.5.12",
+    "@vue/cli-plugin-babel": "4.5.13",
+    "@vue/cli-plugin-eslint": "4.5.13",
+    "@vue/cli-plugin-typescript": "4.5.13",
+    "@vue/cli-plugin-unit-jest": "4.5.13",
+    "@vue/cli-service": "4.5.13",
     "@vue/eslint-config-prettier": "6.0.0",
     "@vue/eslint-config-typescript": "7.0.0",
-    "@vue/test-utils": "1.1.4",
+    "@vue/test-utils": "1.2.1",
     "chai": "4.3.4",
     "eslint": "6.8.0",
     "eslint-plugin-prettier": "3.4.0",
     "eslint-plugin-vue": "7.9.0",
     "prettier": "2.3.0",
     "typescript": "4.2.4",
-    "vue-template-compiler": "2.6.12"
+    "vue-template-compiler": "2.6.14"
   }
 }
